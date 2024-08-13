@@ -1,0 +1,134 @@
+@model IEnumerable<Group_26_Final_Project.Models.Movie>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Playing in Our Theaters Today!</h2>
+
+<form asp-action="Index" asp-controller="Movies" method="get">
+    <p class="form-group">
+        Search for a Movie Title: <input name="SearchString" class="form-control" /><br />
+        <button type="submit" class="btn btn-primary">Search</button>
+        <a asp-action="DetailedSearch" class="btn btn-success">Detailed Movie Search</a>
+        <a asp-action="Index" class="btn btn-danger">Show All Movies</a>
+    </p>
+</form>
+
+<p>
+    @if (User.Identity.IsAuthenticated)
+    {
+        @if (User.IsInRole("Manager"))
+        {
+            <a asp-action="Create">Create New</a>
+        }
+    }
+</p>
+
+</p>Displaying @ViewBag.SelectedMovies out of @ViewBag.AllMovies Movies</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.MovieNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Genre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tagline)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Runtime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Actors)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReleaseYear)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MPAARating)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AverageRating)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th>
+                    @Html.DisplayFor(model => item.MovieNumber)
+                </th>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Genre.GenreName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Tagline)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Runtime)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Actors)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ReleaseYear)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MPAARating)
+                </td>
+                <th>
+                    @Html.DisplayFor(modelItem => item.AverageRating)
+                </th>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AverageRating)
+                </td>
+
+                <td>
+
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        @if (User.IsInRole("Manager"))
+                        {
+                            <a asp-action="Edit" asp-route-id="@item.MovieID">Edit</a>
+                            <a asp-action="Delete" asp-route-id="@item.MovieID">Delete</a>
+
+                        }
+                    }
+
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        @if (User.IsInRole("Customer"))
+                        {
+                            @Html.ActionLink("Buy Tickets", "Create", "Orders", null, null)
+                        }
+                    }
+                    else
+                    {
+                        <p>Please <a href="@Url.Action("Login", "Account")">log in</a> to buy tickets.</p>
+                    }
+
+                    <a asp-action="Details" asp-route-id="@item.MovieID">Details</a>
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

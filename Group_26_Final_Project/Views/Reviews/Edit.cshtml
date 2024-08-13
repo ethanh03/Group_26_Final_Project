@@ -1,0 +1,65 @@
+@model Group_26_Final_Project.Models.Review
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<style>
+    input[type="radio"] {
+        position: relative;
+        left: 3px;
+        margin-left: 20px;
+    }
+</style>
+
+<h2>Edit My Movie Review for @Html.DisplayFor(model => model.Movie.Title)</h2>
+<hr />
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="ReviewID" />
+            @if (User.IsInRole("Customer"))
+            {
+        <div class="form-group">
+            <label asp-for="Rating" class="control-label"></label><br />
+            <input type="radio" class="right" asp-for="Rating" value="1" /> 1
+            <input type="radio" class="radio" asp-for="Rating" value="2" /> 2
+            <input type="radio" class="radio" asp-for="Rating" value="3" /> 3
+            <input type="radio" class="radio" asp-for="Rating" value="4" /> 4
+            <input type="radio" class="radio" asp-for="Rating" value="5" /> 5
+            <span asp-validation-for="Rating" class="text-danger"></span>
+        </div> }
+            else
+            {
+                @Html.HiddenFor(model => model.Rating, Model.Rating)
+            }
+            <div class="form-group">
+                <label asp-for="ReviewText" class="control-label"></label>
+                <textarea asp-for="ReviewText" class="form-control"></textarea>
+                <span asp-validation-for="ReviewText" class="text-danger"></span>
+            </div>
+            @if (User.IsInRole("Manager") || User.IsInRole("Employee"))
+            {
+        <div class="form-group">
+            <label asp-for="ReviewStatus" class="control-label"></label><br />
+          
+            <input type="radio" class="radio" asp-for="ReviewStatus" value="@ReviewStatus.Approved" /> Accepted<br />
+            <input type="radio" class="radio" asp-for="ReviewStatus" value="@ReviewStatus.NeedsReview" /> Rejected/Need Review<br />
+            <span asp-validation-for="ReviewStatus" class="text-danger"></span>
+        </div> }
+                    else
+                    {
+        @Html.HiddenFor(model => model.ReviewStatus, Model.ReviewStatus)}
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

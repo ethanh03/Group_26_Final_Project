@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Showtime Search";
+}
+
+<h2>Find a movie playing on:</h2>
+
+@using (Html.BeginForm("DisplayShowSearch", "Movies", FormMethod.Post))
+    {
+    <p class="form-group">
+        Search by Showing Date: <input type="date" name="ShowingTime" class="form-control" />
+    </p>
+    <p class="form-group">
+        <input type="submit" value="Search" class="btn btn-primary" />
+    </p>
+    }

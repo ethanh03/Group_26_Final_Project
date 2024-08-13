@@ -1,0 +1,24 @@
+@model IEnumerable<Group_26_Final_Project.Models.Showtime>
+
+@{
+    ViewData["Title"] = "Main Street Movies Home";
+}
+
+<h1 class="text-center">Welcome to the Main Street Movies!</h1>
+
+<a asp-action="Index" asp-controller="Showtimes" class="btn btn-info">View Our Movie Schedule</a>
+
+@if (User.IsInRole("Manager") || User.IsInRole("Employee"))
+{
+    <a asp-action="Index" asp-controller="Genres" class="btn btn-info">Genres</a>
+}
+<a asp-action="Index" asp-controller="Movies" class="btn btn-info">All Movies</a>
+
+<a asp-action="create" asp-controller="orders" class="btn btn-info">Order Tickets!</a>
+
+<a asp-action="Index" asp-controller="Reviews" class="btn btn-info">Reviews</a>
+
+@if (User.Identity.IsAuthenticated && User.IsInRole("Manager"))
+{
+    <a asp-action="Create" asp-controller="Movies" class="btn btn-success">Create Movie</a>
+}

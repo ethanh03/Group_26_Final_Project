@@ -1,0 +1,337 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Group_26_Final_Project
+build_property.RootNamespace = Group_26_Final_Project
+build_property.ProjectDir = /Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Account/ChangeAddress.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9DaGFuZ2VBZGRyZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Account/ChangeBirthdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9DaGFuZ2VCaXJ0aGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Account/ChangeCustomerPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9DaGFuZ2VDdXN0b21lclBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Account/ChangeEmployeePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9DaGFuZ2VFbXBsb3llZVBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Account/ChangeManagerPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9DaGFuZ2VNYW5hZ2VyUGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Account/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9DaGFuZ2VQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Account/ChangePhoneNumber.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9DaGFuZ2VQaG9uZU51bWJlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Account/EditCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9FZGl0Q3VzdG9tZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Account/EditEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9FZGl0RW1wbG95ZWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Account/EditManager.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9FZGl0TWFuYWdlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Account/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Account/IndexCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9JbmRleEN1c3RvbWVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Account/IndexEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9JbmRleEVtcGxveWVlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Account/IndexManager.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9JbmRleE1hbmFnZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9SZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Genres/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2VucmVzL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Genres/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2VucmVzL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Genres/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2VucmVzL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Genres/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2VucmVzL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Home/MovieReport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Nb3ZpZVJlcG9ydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Movies/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTW92aWVzL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Movies/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTW92aWVzL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Movies/DetailedSearch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTW92aWVzL0RldGFpbGVkU2VhcmNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Movies/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTW92aWVzL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Movies/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTW92aWVzL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Movies/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTW92aWVzL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Movies/ShowingTimeSearch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTW92aWVzL1Nob3dpbmdUaW1lU2VhcmNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/OrderDetails/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXJEZXRhaWxzL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/OrderDetails/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXJEZXRhaWxzL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/OrderDetails/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXJEZXRhaWxzL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/OrderDetails/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXJEZXRhaWxzL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/OrderDetails/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXJEZXRhaWxzL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Orders/ChooseMovie.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXJzL0Nob29zZU1vdmllLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Orders/ChooseSeats.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXJzL0Nob29zZVNlYXRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Orders/ChooseShowtime.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXJzL0Nob29zZVNob3d0aW1lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Orders/Confirm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXJzL0NvbmZpcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Orders/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXJzL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Orders/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXJzL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Orders/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXJzL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Orders/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXJzL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Orders/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXJzL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Orders/SelectCustomerForOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXJzL1NlbGVjdEN1c3RvbWVyRm9yT3JkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Prices/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJpY2VzL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Prices/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJpY2VzL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Prices/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJpY2VzL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Prices/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJpY2VzL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Prices/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJpY2VzL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Reviews/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmV2aWV3cy9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Reviews/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmV2aWV3cy9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Reviews/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmV2aWV3cy9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Reviews/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmV2aWV3cy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Reviews/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmV2aWV3cy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/RoleAdmin/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm9sZUFkbWluL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/RoleAdmin/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm9sZUFkbWluL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/RoleAdmin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm9sZUFkbWluL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Seed/ClearDatabase.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2VlZC9DbGVhckRhdGFiYXNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Seed/Confirm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2VlZC9Db25maXJtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Seed/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2VlZC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Shared/TheaterOneScheduleError.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL1RoZWF0ZXJPbmVTY2hlZHVsZUVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Shared/TheaterTwoScheduleError.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL1RoZWF0ZXJUd29TY2hlZHVsZUVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Showtimes/CopyScheduleOne.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hvd3RpbWVzL0NvcHlTY2hlZHVsZU9uZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Showtimes/CopyScheduleTwo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hvd3RpbWVzL0NvcHlTY2hlZHVsZVR3by5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Showtimes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hvd3RpbWVzL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Showtimes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hvd3RpbWVzL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Showtimes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hvd3RpbWVzL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Showtimes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hvd3RpbWVzL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Showtimes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hvd3RpbWVzL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Showtimes/TheaterOneIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hvd3RpbWVzL1RoZWF0ZXJPbmVJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Showtimes/TheaterTwoIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hvd3RpbWVzL1RoZWF0ZXJUd29JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Showtimes/UpcomingScheduleTheaterOne.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hvd3RpbWVzL1VwY29taW5nU2NoZWR1bGVUaGVhdGVyT25lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/Showtimes/UpcomingScheduleTheaterTwo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hvd3RpbWVzL1VwY29taW5nU2NoZWR1bGVUaGVhdGVyVHdvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ethanharris/Documents/GitHub/Group-26/Group_26_Final_Project/Group_26_Final_Project/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

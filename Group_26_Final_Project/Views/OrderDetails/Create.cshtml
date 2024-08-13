@@ -1,0 +1,29 @@
+@model Group_26_Final_Project.Models.OrderDetail
+
+@{
+    ViewData["Title"] = "SelectMovie";
+}
+
+<h1>Select a Movie</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            @Html.HiddenFor(model => model.Order.OrderID)
+            <div class="form-group">
+                <label class="control-label">Movies:</label>
+                @Html.DropDownList("SelectedMovie", (SelectList)ViewBag.AllMovies, new { @class = "form-control" })
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Next" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index" asp-route-orderID="@Model.Order.OrderID">Back to List</a>
+</div>
+

@@ -1,0 +1,50 @@
+@model Group_26_Final_Project.Models.Showtime
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Showtime</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div class="form-group">
+                <label class="control-label">Movies:</label>
+                @Html.DropDownList("SelectedMovie", (SelectList)ViewBag.AllMovies, new { @class = "form-control" })
+            </div>
+            <div class="form-group">
+                <label class="control-label">Prices:</label>
+                @Html.DropDownList("SelectedPrice", (SelectList)ViewBag.AllPrices, new { @class = "form-control" })
+            </div>
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="ShowingTime" class="control-label"></label>
+                <input asp-for="ShowingTime" class="form-control" />
+                <span asp-validation-for="ShowingTime" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="radio" class="radio" asp-for="Theater" value="@Theater.Theater1" />Theater 1<br />
+                <input type="radio" class="radio" asp-for="Theater" value="@Theater.Theater2" />Theater 2<br />
+                <span asp-validation-for="Theater" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" asp-for="SpecialEvent" />
+                    @Html.DisplayNameFor(model => model.SpecialEvent)
+                </label>
+                <div />
+                <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-primary" />
+                </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

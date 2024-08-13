@@ -1,0 +1,58 @@
+﻿@model IEnumerable<Group_26_Final_Project.Models.Showtime>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Theater 2 Movie Showings</h1>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ShowingTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Theater)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SpecialEvent)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StartTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EndTime)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @item.ShowingTime.ToShortTimeString()
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Theater)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SpecialEvent)
+                </td>
+                <td>
+                    @item.StartTime?.ToShortTimeString()
+                </td>
+                <td>
+                    @item.EndTime?.ToShortTimeString()
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.ShowtimeID">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.ShowtimeID">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.ShowtimeID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

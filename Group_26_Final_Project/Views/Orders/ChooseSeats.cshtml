@@ -1,0 +1,46 @@
+﻿@model Group_26_Final_Project.Models.Order
+
+@{
+    ViewData["Title"] = "SelectShowtime";
+}
+@{
+    var options = ViewBag.list as List<string>;
+}
+<h1>Select Seats</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+
+
+        <form>
+            @foreach (var option in options)
+            {
+                <label class="radio-inline">
+                    <input type="radio" name="selectedOption" value="@option"> @option
+                </label>
+            }
+        </form>
+        <form asp-action="ChooseSeats">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+
+                <label class="control-label">Select your seats:</label>
+                @Html.ListBox("SelectedShowtime", (MultiSelectList)ViewBag.AllShowtimes, new { @class = "form-control" })
+            </div>
+            @Html.HiddenFor(model => model.OrderID)
+            <div class="form-group">
+                <label class="control-label">Select your seats:</label>
+                @Html.ListBox("SelectedSeats", (MultiSelectList)ViewBag.list, new { @class = "form-control" })
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Next" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index" asp-route-orderID="@Model.OrderID">Back to List</a>
+</div>

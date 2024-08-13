@@ -1,0 +1,76 @@
+@model Group_26_Final_Project.Models.OrderDetail
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>OrderDetail</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="OrderDetailID" />
+            <div class="form-group">
+                <label asp-for="TransactionID" class="control-label"></label>
+                <input asp-for="TransactionID" class="form-control" />
+                <span asp-validation-for="TransactionID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateTime" class="control-label"></label>
+                <input asp-for="DateTime" class="form-control" />
+                <span asp-validation-for="DateTime" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SeatNumber" class="control-label"></label>
+                <input asp-for="SeatNumber" class="form-control" />
+                <span asp-validation-for="SeatNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PriceID" class="control-label"></label>
+                <input asp-for="PriceID" class="form-control" />
+                <span asp-validation-for="PriceID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ExtendedPrice" class="control-label"></label>
+                <input asp-for="ExtendedPrice" class="form-control" />
+                <span asp-validation-for="ExtendedPrice" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Theater" class="control-label"></label>
+                <select asp-for="Theater" class="form-control"></select>
+                <span asp-validation-for="Theater" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PopcornPoint" class="control-label"></label>
+                <input asp-for="PopcornPoint" class="form-control" />
+                <span asp-validation-for="PopcornPoint" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="SeniorDiscount" /> @Html.DisplayNameFor(model => model.SeniorDiscount)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="PaymentMethod" class="control-label"></label>
+                <select asp-for="PaymentMethod" class="form-control"></select>
+                <span asp-validation-for="PaymentMethod" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ShowtimePrice" class="control-label"></label>
+                <input asp-for="ShowtimePrice" class="form-control" />
+                <span asp-validation-for="ShowtimePrice" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

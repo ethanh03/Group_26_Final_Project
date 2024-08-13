@@ -1,0 +1,47 @@
+﻿<Properties StartupConfiguration="{CC3360EF-9297-4A1B-AE6C-7DE01ED1F388}|http">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Group__26__Final__Project PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Group_26_Final_Project/Controllers/AccountController.cs">
+    <Files>
+      <File FileName="Group_26_Final_Project/Views/Showtimes/TheaterOneIndex.cshtml" />
+      <File FileName="Group_26_Final_Project/Views/Showtimes/TheaterTwoIndex.cshtml" />
+      <File FileName="Group_26_Final_Project/Controllers/ShowtimesController.cs" />
+      <File FileName="Group_26_Final_Project/Views/Movies/Index.cshtml" />
+      <File FileName="Group_26_Final_Project/Views/Showtimes/Create.cshtml" />
+      <File FileName="Group_26_Final_Project/Controllers/MoviesController.cs" />
+      <File FileName="Group_26_Final_Project/Models/Movie.cs" />
+      <File FileName="Group_26_Final_Project/Models/ViewModels/SearchViewModel.cs" />
+      <File FileName="Group_26_Final_Project/Views/Movies/DetailedSearch.cshtml" />
+      <File FileName="Group_26_Final_Project/Program.cs" />
+      <File FileName="Group_26_Final_Project/Views/Showtimes/Index.cshtml" />
+      <File FileName="Group_26_Final_Project/Views/Movies/ShowingTimeSearch.cshtml" />
+      <File FileName="Group_26_Final_Project/Controllers/AccountController.cs" Line="178" Column="14" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Group_26_Final_Project" expanded="True">
+            <Node name="Group_26_Final_Project" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="AccountController.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True">
+                <Node name="ViewModels" expanded="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Movies" expanded="True" />
+                <Node name="Showtimes" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,14 @@
+@model IEnumerable<Group_26_Final_Project.Models.Showtime>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Movie Showings</h1>
+
+<a asp-action="Create" asp-controller="Showtimes" class="btn btn-info">Create</a>
+<a asp-action="TheaterOneIndex" asp-controller="Showtimes" class="btn btn-info">Theater 1</a>
+<a asp-action="TheaterTwoIndex" asp-controller="Showtimes" class="btn btn-info">Theater 2</a>
+<a asp-action="UpcomingScheduleTheaterOne" asp-controller="Showtimes" class="btn btn-info">Theater 1 Upcoming Schedule</a>
+<a asp-action="UpcomingScheduleTheaterTwo" asp-controller="Showtimes" class="btn btn-info">Theater 2 Upcoming Schedule</a>
+
